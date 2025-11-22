@@ -13,6 +13,12 @@ public class Week3
     public static void main(String[] args){
     
         int age = 18; // local variable
+        
+        //<class name> <variable> = new <className>();
+        
+        Week3 w1 = new Week3();
+        System.out.println(w1);
+        
         System.out.println(age);
         System.out.println(Week3.rrt);
         
@@ -44,7 +50,7 @@ public class Week3
         //Escape Sequence
         System.out.println("Hello\nWorld");
         System.out.println("Hello\tWorld");
-        System.out.println("She said System.out.println("She said \"Hi\" ");
+        System.out.println("She said \"Hi\" ");
          //Unicode Escape 
     }
 }
